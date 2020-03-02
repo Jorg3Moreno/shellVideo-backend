@@ -193,3 +193,5 @@ yarn-error.log
 
 # IDE
 *.sublime-*
+
+.env
