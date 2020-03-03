@@ -4,6 +4,9 @@ const { config } = require('./config/index');
 
 const app = express();
 
+// body parser midleware
+app.use(express.json());
+
 moviesApi(app);
 
 app.listen(config.port, () => {
